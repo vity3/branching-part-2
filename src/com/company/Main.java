@@ -36,6 +36,7 @@ public class Main {
     public static void practicalTaskNo2point2() {
         Scanner input = new Scanner (System.in);
         System.out.println("What is your grade?");
+        System.out.println("A; B; C; D; E; F? ");
         char grade = input.next().toUpperCase().charAt(0);
         switch (grade) {
             case 'A':
